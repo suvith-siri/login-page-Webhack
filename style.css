@@ -1,0 +1,157 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: "Ubuntu Mono", monospace;
+  }
+  
+  body {
+    margin: none;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #555;
+    background: #ececec;
+  }
+  
+  .login {
+    width: 430px;
+    height: 700px;
+    padding: 60px 30px 30px 30px;
+    border-radius: 40px;
+    background: #ececec;
+    -webkit-box-shadow: 11px 11px 30px #c9c9c9, -11px -11px 30px #ffffff;
+            box-shadow: 11px 11px 30px #c9c9c9, -11px -11px 30px #ffffff;
+  }
+  
+  .logo {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #fdfdfd, #d4d4d4);
+    -webkit-box-shadow: 7px 7px 14px #9c9c9c, -7px -7px 14px #ffffff;
+            box-shadow: 7px 7px 14px #9c9c9c, -7px -7px 14px #ffffff;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    border-radius: 50%;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: 100px;
+    -webkit-filter: brightness(0.3);
+            filter: brightness(0.3);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .logo img:hover {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+    -webkit-filter: brightness(0.2);
+            filter: brightness(0.2);
+  }
+  
+  .logo:hover {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .subtitle {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .fields {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 45px 5px 5px 5px;
+    height: 200px;
+  }
+  
+  .fields input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 50px;
+    border-radius: 30px;
+    background: #ececec;
+    -webkit-box-shadow: inset 7px 7px 14px #d2d2d2, inset -7px -7px 14px #ffffff;
+            box-shadow: inset 7px 7px 14px #d2d2d2, inset -7px -7px 14px #ffffff;
+    text-align: center;
+  }
+  
+  .fields img {
+    height: 20px;
+    left: 20px;
+    margin-top: 16px;
+    position: absolute;
+    opacity: 0.7;
+  }
+  
+  .login-submit {
+    margin-top: 50px;
+    outline: none;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #555;
+    text-transform: uppercase;
+    border-radius: 50px;
+    background: #ececec;
+    -webkit-box-shadow: 20px 20px 60px #c9c9c9, -20px -20px 60px #ffffff;
+            box-shadow: 20px 20px 60px #c9c9c9, -20px -20px 60px #ffffff;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .login-submit:hover {
+    background: linear-gradient(145deg, #fdfdfd, #a1a1a1);
+    -webkit-box-shadow: 20px 20px 60px #878787, -20px -20px 60px #ffffff;
+            box-shadow: 20px 20px 60px #878787, -20px -20px 60px #ffffff;
+  }
